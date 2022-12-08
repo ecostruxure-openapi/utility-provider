@@ -25,7 +25,7 @@ Import `EcoStruxure-Utility-Provider.postman_collection.json` to postman. Refer 
 
 Provision is provided at collection level to configure variables which are used across the postman requests.
 
-![Postman Variables](/static/image/postman-variables.png)
+![Postman Variables](/static/images/postman-variables.png)
 
 | Variables|Comments|
 |----------|--------|
@@ -42,11 +42,11 @@ Execute one of following to generate access token. On successful execution the a
 
 If you have access to CIAM ID token, use `Exchange CIAM id_token` request with id_token as body parameter to generate access token.
 
-![Exchange CIAM id_token](/static/image/id-token-request.png)
+![Exchange CIAM id_token](/static/images/id-token-request.png)
 
 If you do not have access to CIAM ID token, use `Impersonate an user` request with end customer email as body parameter to generate access token.
 
-![Impersonate an user](/static/image/impersonate-token-request.png)
+![Impersonate an user](/static/images/impersonate-token-request.png)
 
 ### Get consent from end user for Enedis meter access
 
